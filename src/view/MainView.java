@@ -14,10 +14,6 @@ public class MainView extends JFrame {
 		this(title, 500, 500);
 	}
 	
-	public MainView(String title, boolean resizeable) {
-		this(title, 500, 500, resizeable);
-	}
-	
 	public MainView(String title, int width, int height) {
 		this(title, width, height, true);
 	}
